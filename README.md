@@ -151,9 +151,9 @@ La vérification de la signature numérique est effectuée en utilisant la clé 
 
 La signature numérique permet :
 
-— *d'authentifier l'auteur du document* : l'auteur est _le seul_ à avoir pu chiffrer l'empreinte numérique *avec sa clé privée* ;
-— *de garantir l'intégrité du document* : toute modification du document entraînerait une modification de l'empreinte numérique, et donc de la signature numérique *qui ne serait plus valide* ;
-— *de garantir la non-répudiation au niveau de l'auteur* : celui-ci ne peut pas nier avoir signé le document, car _lui seul a pu chiffrer l'empreinte numérique_ avec sa propre clé privée.
+- *d'authentifier l'auteur du document* : l'auteur est _le seul_ à avoir pu chiffrer l'empreinte numérique *avec sa clé privée* ;
+- *de garantir l'intégrité du document* : toute modification du document entraînerait une modification de l'empreinte numérique, et donc de la signature numérique *qui ne serait plus valide* ;
+- *de garantir la non-répudiation au niveau de l'auteur* : celui-ci ne peut pas nier avoir signé le document, car _lui seul a pu chiffrer l'empreinte numérique_ avec sa propre clé privée.
 
 Pour la suite, vous allez réutiliser la paire de clés asymétrique déjà générées. Choisissez un fichier à signer. On le renomme `document.bin`.
 
