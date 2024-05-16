@@ -6,19 +6,19 @@
 
 OpenSSL comporte deux bibliothèques écrites en C (une de cryptographie générale et une implémentant le protocole SSL). Il contient aussi le programme `openssl`, un outil de ligne de commande pour utiliser les différentes fonctions cryptographiques de la librairie crypto d’OpenSSL à partir du shell. Voici un aperçu de ses différents usages :
 
-- chiffrement et déchiffrement symétrique (AES...)
+— chiffrement et déchiffrement symétrique (AES...)
 
-- chiffrement et déchiffrement asymétrique (RSA...)
+— chiffrement et déchiffrement asymétrique (RSA...)
 
-- création de clefs (RSA, DSA...)
+— création de clefs (RSA, DSA...)
 
-- signatures digitales
+— signatures digitales
 
-- hachage cryptographique (SHA, MD5, RIPEMD160...)
+— hachage cryptographique (SHA, MD5, RIPEMD160...)
 
-- création de certificats X509
+— création de certificats X509
 
-- tests SSL/TLS client et serveur
+— tests SSL/TLS client et serveur
 
 Les paramètres du programme shell `openssl` sont très nombreux et permettent notamment d’indiquer le type de chiffrement (pour ne citer que ceux à clef secrète symétrique : _Blowfish_, AES, DES ou 3-DES, _Camellia_, RC2, RC4, _Aria_...), d’encodage (Base64...) et de hachage (MD5, SHA...).
 
